@@ -1,0 +1,71 @@
+
+body
+{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    min-height: 100vh;
+    margin-bottom: 0;
+}
+
+
+/*Header*/
+
+header
+{
+    
+}
+.webpageTitle
+{
+    font-size: 3.5em;
+    font-weight: 700;
+    
+}
+
+/*PageContent*/
+
+.content
+{
+    display: flex;
+    gap: 20px;
+}
+
+.toolbox
+{
+    height: 400px;
+    width: 80px;
+
+
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+.drawBox
+{
+       height: 400px;
+    width: 400px;
+
+
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+
+/*footer*/
+.contactIcons
+{
+
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px 20px;
+
+}
+
+a
+{
+    width: 32px;
+    height: 32px;
+}
